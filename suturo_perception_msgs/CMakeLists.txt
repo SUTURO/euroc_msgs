@@ -4,7 +4,11 @@ project(suturo_perception_msgs)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED message_generation std_msgs geometry_msgs)
+find_package(catkin REQUIRED 
+  message_generation std_msgs 
+  geometry_msgs
+  moveit_msgs
+)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -61,6 +65,7 @@ generate_messages(
   DEPENDENCIES
   std_msgs  # Or other packages containing msgs
   geometry_msgs
+  moveit_msgs
 )
 
 ###################################
