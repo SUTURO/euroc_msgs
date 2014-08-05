@@ -10,4 +10,4 @@ uint8 UNKNOWN=255
 
 int32 c_type
 
-Cuboid cuboid
+moveit_msgs/CollisionObject object
