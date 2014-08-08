@@ -50,6 +50,7 @@ add_service_files(
   GetClusters.srv
   GetTable.srv
   GetScene.srv
+  GetGripper.srv
 )
 
 ## Generate actions in the 'action' folder
