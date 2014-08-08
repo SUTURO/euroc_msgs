@@ -5,7 +5,8 @@ uint8 IRON=3
 uint8 PAPER=4
 uint8 CARDBOARD=5
 
+string name
 string color
 string description
-shape[] shapes
+Shape[] shapes
 uint8 surface_material

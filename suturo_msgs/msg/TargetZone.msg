@@ -1,4 +1,4 @@
 string name
-object expected_object
+Object expected_object
 float64 max_distance
 geometry_msgs/Point target_position

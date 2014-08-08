@@ -48,13 +48,13 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   mast_of_cam.msg
-   object.msg
-   robot.msg
-   sensor.msg
-   shape.msg
-   target_zone.msg
-   task.msg
+   MastOfCam.msg
+   Object.msg
+   Robot.msg
+   Sensor.msg
+   Shape.msg
+   TargetZone.msg
+   Task.msg
  )
 
 ## Generate services in the 'srv' folder
