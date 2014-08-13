@@ -42,6 +42,7 @@ add_message_files(
   PerceivedObject.msg
   Cuboid.msg
   EurocObject.msg
+  ObjectOfInterrest.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -51,6 +52,7 @@ add_service_files(
   GetTable.srv
   GetScene.srv
   GetGripper.srv
+  RecognizeOoI.srv
 )
 
 ## Generate actions in the 'action' folder
