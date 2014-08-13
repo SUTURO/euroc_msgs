@@ -10,4 +10,11 @@ uint8 UNKNOWN=255
 
 int32 c_type
 
+uint8 SHAPE_UNKNOWN = 0
+uint8 SHAPE_BOX = 1
+uint8 SHAPE_CYLINDER = 2
+uint8 SHAPE_SPHERE = 3
+
+uint32 c_shape
+
 moveit_msgs/CollisionObject object
