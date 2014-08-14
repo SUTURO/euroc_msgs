@@ -1,3 +1,3 @@
-float64[] base_pose
-float64[] pan_tilt_base
+geometry_msgs/Twist base_pose
+geometry_msgs/Twist pan_tilt_base
 float64[] speed_limit
