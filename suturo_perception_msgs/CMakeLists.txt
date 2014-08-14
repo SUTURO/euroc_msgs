@@ -42,7 +42,7 @@ add_message_files(
   PerceivedObject.msg
   Cuboid.msg
   EurocObject.msg
-  ObjectOfInterrest.msg
+  ObjectOfInterest.msg
 )
 
 ## Generate services in the 'srv' folder
