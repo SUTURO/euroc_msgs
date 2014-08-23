@@ -17,4 +17,6 @@ uint8 SHAPE_SPHERE = 3
 
 uint32 c_shape
 
+std_msgs/ColorRGBA color
+
 moveit_msgs/CollisionObject object
