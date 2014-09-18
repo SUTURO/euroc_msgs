@@ -23,4 +23,5 @@ float32 c_avg_col_s
 float32 c_avg_col_v
 
 moveit_msgs/CollisionObject object
-moveit_msgs/CollisionObject mbpe_object
+bool mpe_success
+moveit_msgs/CollisionObject mpe_object
