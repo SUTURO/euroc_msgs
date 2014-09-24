@@ -22,6 +22,7 @@ int32 c_avg_col_h
 float32 c_avg_col_s
 float32 c_avg_col_v
 
+bool c_cuboid_success
 moveit_msgs/CollisionObject object
 bool mpe_success
 moveit_msgs/CollisionObject mpe_object
