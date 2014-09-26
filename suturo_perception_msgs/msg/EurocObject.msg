@@ -21,6 +21,7 @@ std_msgs/ColorRGBA color
 int32 c_avg_col_h
 float32 c_avg_col_s
 float32 c_avg_col_v
+string c_color_class
 
 bool c_cuboid_success
 moveit_msgs/CollisionObject object
