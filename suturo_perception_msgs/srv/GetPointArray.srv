@@ -1,0 +1,6 @@
+uint8 TCP = 1
+uint8 SCENE = 2
+
+uint8 pointCloudName
+---
+float32[] pointArray
