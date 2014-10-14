@@ -54,6 +54,7 @@ add_service_files(
   GetGripper.srv
   RecognizeOoI.srv
   Classifier.srv
+  GetPointArray.srv
 )
 
 ## Generate actions in the 'action' folder
