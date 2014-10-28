@@ -43,6 +43,7 @@ add_message_files(
   Cuboid.msg
   EurocObject.msg
   ObjectOfInterest.msg
+  PerceptionNodeStatus.msg
 )
 
 ## Generate services in the 'srv' folder
