@@ -25,4 +25,4 @@ geometry_msgs/Pose[] primitive_poses
 float64[] primitive_densities
 
 # material of the surface
-uint8 surface_material
+string surface_material
