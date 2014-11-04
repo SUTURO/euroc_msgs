@@ -17,3 +17,5 @@ uint8 task_type
 float64 time_limit
 float64[] two_axes_table_speed_limit
 ConveyorBelt conveyor_belt
+geometry_msgs/Pose puzzle_fixture
+PuzzlePart[] relative_puzzle_part_target_poses
