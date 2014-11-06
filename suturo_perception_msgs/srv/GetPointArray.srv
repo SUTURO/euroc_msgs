@@ -3,6 +3,7 @@ uint8 SCENE = 2
 
 uint8 pointCloudName
 bool publishToPlanningScene
+time minPointCloudTimeStamp
 ---
 Header header
 float32[] pointArray
