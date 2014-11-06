@@ -44,6 +44,7 @@ add_message_files(
   EurocObject.msg
   ObjectOfInterest.msg
   PerceptionNodeStatus.msg
+  PointArrayResult.msg
 )
 
 ## Generate services in the 'srv' folder

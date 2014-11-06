@@ -4,4 +4,5 @@ uint8 SCENE = 2
 uint8 pointCloudName
 bool publishToPlanningScene
 ---
+Header header
 float32[] pointArray
