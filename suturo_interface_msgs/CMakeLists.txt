@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(suturo_perception_msgs)
+project(suturo_interface_msgs)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -7,6 +7,9 @@ project(suturo_perception_msgs)
 find_package(catkin REQUIRED 
   message_generation 
   std_msgs 
+  moveit_msgs
+  geometry_msgs
+  suturo_perception_msgs
 )
 
 
@@ -35,9 +38,9 @@ find_package(catkin REQUIRED
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-add_message_files(
-  FILES
-)
+##add_message_files(
+##  FILES
+##)
 
 ## Generate services in the 'srv' folder
 add_service_files(
@@ -57,6 +60,7 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
   std_msgs  # Or other packages containing msgs
+  suturo_perception_msgs
 )
 
 ###################################

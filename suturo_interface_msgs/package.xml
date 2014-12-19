@@ -43,6 +43,13 @@
   <buildtool_depend>roscpp</buildtool_depend>
   <buildtool_depend>std_msgs</buildtool_depend> 
 
+  <build_depend>suturo_perception_msgs</build_depend>
+  <run_depend>suturo_perception_msgs</run_depend>
+
+
+
+
+
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- You can specify that this package is a metapackage here: -->
