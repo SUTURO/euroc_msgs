@@ -1,0 +1,12 @@
+suturo_perception_msgs/EurocObject[] objects_found
+suturo_perception_msgs/EurocObject fitted_object
+suturo_perception_msgs/EurocObject[] fitted_objects
+suturo_perception_msgs/EurocObject failed_object
+suturo_perception_msgs/EurocObject object_to_move
+bool enable_movement
+string name
+bool sec_try
+bool sec_try_done
+time initialization_time
+int32 logging
+suturo_msgs/Task yaml
