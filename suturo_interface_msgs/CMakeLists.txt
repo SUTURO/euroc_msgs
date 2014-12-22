@@ -10,6 +10,7 @@ find_package(catkin REQUIRED
   moveit_msgs
   geometry_msgs
   suturo_perception_msgs
+  suturo_msgs
 )
 
 
@@ -48,6 +49,7 @@ add_service_files(
 	srv
   FILES
   SearchObjects.srv
+  TaskData.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -61,6 +63,7 @@ generate_messages(
   DEPENDENCIES
   std_msgs  # Or other packages containing msgs
   suturo_perception_msgs
+  suturo_msgs
 )
 
 ###################################
