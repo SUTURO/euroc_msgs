@@ -50,6 +50,7 @@ add_service_files(
 	srv
   FILES
   SearchObjects.srv
+  StartPlanning.srv
   TaskDataService.srv
 )
 
