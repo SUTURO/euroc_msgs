@@ -1,0 +1,5 @@
+#Request
+bool scenecam
+geometry_msgs/Point arm_origin 
+---
+#Response
