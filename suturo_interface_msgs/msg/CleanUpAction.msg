@@ -1,0 +1,2 @@
+suturo_perception_msgs/EurocObject object
+geometry_msgs/PointStamped target_position

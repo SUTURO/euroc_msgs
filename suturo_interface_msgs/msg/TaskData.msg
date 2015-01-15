@@ -7,6 +7,7 @@ suturo_perception_msgs/EurocObject object_to_move
 suturo_perception_msgs/EurocObject object_to_focus
 suturo_perception_msgs/EurocObject[] objects_to_focus
 suturo_perception_msgs/EurocObject focused_object
+CleanUpAction[] clean_up_plan
 geometry_msgs/Point focused_point
 bool enable_movement
 string name
