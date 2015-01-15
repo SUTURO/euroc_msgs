@@ -57,6 +57,8 @@ add_service_files(
   GetBaseOrigin.srv
   EurocObjectToOdomCombined.srv
   GetNearestObjectIDX.srv 
+  MarkRegionAsObjectUnderPoint.srv
+  CurrentMapToCollisionObject.srv
 )
 
 ## Generate actions in the 'action' folder
