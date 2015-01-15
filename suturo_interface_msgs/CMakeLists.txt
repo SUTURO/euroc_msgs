@@ -54,6 +54,8 @@ add_service_files(
   TaskDataService.srv
   AddPointCloud.srv
   GetBaseOrigin.srv
+  EurocObjectToOdomCombined.srv
+  GetNearestObjectIDX.srv 
 )
 
 ## Generate actions in the 'action' folder
