@@ -7,6 +7,7 @@ suturo_perception_msgs/EurocObject object_to_move
 suturo_perception_msgs/EurocObject object_to_focus
 suturo_perception_msgs/EurocObject[] objects_to_focus
 suturo_perception_msgs/EurocObject focused_object
+geometry_msgs/PointStamped place_position
 CleanUpAction[] clean_up_plan
 geometry_msgs/Point focused_point
 bool enable_movement
@@ -16,3 +17,6 @@ bool sec_try_done
 time initialization_time
 int32 logging
 suturo_msgs/Task yaml
+float32 dist_to_obj
+geometry_msgs/PoseStamped grasp
+string placed_object
