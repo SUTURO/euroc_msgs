@@ -59,6 +59,7 @@ add_service_files(
   GetNearestObjectIDX.srv 
   MarkRegionAsObjectUnderPoint.srv
   CurrentMapToCollisionObject.srv
+  GetPercentCleared.srv
 )
 
 ## Generate actions in the 'action' folder
