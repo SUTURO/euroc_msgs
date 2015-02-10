@@ -1,0 +1,8 @@
+#Request
+float32 angle
+float32 distance
+int32 quantity
+geometry_msgs/Point centroid
+---
+#Response
+geometry_msgs/PoseStamped[] poses
