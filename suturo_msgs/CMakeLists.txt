@@ -59,6 +59,8 @@ find_package(catkin REQUIRED COMPONENTS
    Camera.msg
    ConveyorBelt.msg
    PuzzlePart.msg
+   Int32Array.msg
+   Int32Array2D.msg
  )
 
 ## Generate services in the 'srv' folder
