@@ -11,3 +11,4 @@ bool was_merged
 bool is_closed
 #int32[] boarder_cells datatype ??
 #last_merge_x datatype ??
+int32 color_hex
