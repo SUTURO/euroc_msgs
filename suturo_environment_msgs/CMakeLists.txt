@@ -51,6 +51,7 @@ add_service_files(
 	srv
   FILES
   GetObstacleRegions.srv
+  GetMap.srv
 )
 
 ## Generate actions in the 'action' folder
