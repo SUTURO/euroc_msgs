@@ -61,6 +61,15 @@ add_message_files(
    FILES
    BlowUpObjects.srv
    CreatePosesForScanning.srv
+   Move.srv
+   Plan.srv
+   MoveWithPlan.srv
+   AddCollisionObjects.srv
+   MoveMastCam.srv
+   GetCollisionObject.srv
+   OpenGripper.srv
+   CloseGripper.srv
+   FilterPoses.srv
  )
 
 ## Generate actions in the 'action' folder

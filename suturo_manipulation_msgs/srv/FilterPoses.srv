@@ -1,0 +1,7 @@
+#Request
+float32 cell_x
+float32 cell_y
+geometry_msgs/PoseStamped[] poses
+---
+#Response
+geometry_msgs/PoseStamped[] poses
