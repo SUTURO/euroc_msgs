@@ -61,6 +61,7 @@ add_service_files(
   CurrentMapToCollisionObject.srv
   GetPercentCleared.srv
   GraspObject.srv
+  PlaceObject.srv
 )
 
 ## Generate actions in the 'action' folder
