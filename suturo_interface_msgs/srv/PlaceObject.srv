@@ -1,0 +1,6 @@
+#Request
+geometry_msgs/PointStamped place_position
+geometry_msgs/PoseStamped grasp_position
+---
+#Response
+bool result
