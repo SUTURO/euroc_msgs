@@ -1,0 +1,5 @@
+#Request
+moveit_msgs/CollisionObject object
+int32 density
+---
+bool result

@@ -60,6 +60,7 @@ add_service_files(
   MarkRegionAsObjectUnderPoint.srv
   CurrentMapToCollisionObject.srv
   GetPercentCleared.srv
+  GraspObject.srv
 )
 
 ## Generate actions in the 'action' folder
