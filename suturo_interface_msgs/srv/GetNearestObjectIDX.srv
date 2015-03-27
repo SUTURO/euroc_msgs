@@ -1,5 +1,0 @@
-suturo_perception_msgs/EurocObject focused_object
-suturo_perception_msgs/EurocObject[] pose_estimated_objects
-float32 treshold
----
-int32 min_distance_idx 

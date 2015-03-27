@@ -1,5 +1,0 @@
-string s
----
-int32 id
-time stamp
-EurocObject[] objects

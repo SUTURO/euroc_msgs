@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(suturo_environment_msgs)
+project(suturo_startup_msgs)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -7,10 +7,10 @@ project(suturo_environment_msgs)
 find_package(catkin REQUIRED 
   message_generation 
   std_msgs 
-  suturo_perception_msgs
-  geometry_msgs
-  shape_msgs
   moveit_msgs
+  geometry_msgs
+  suturo_perception_msgs
+  suturo_msgs
 )
 
 
@@ -41,9 +41,9 @@ find_package(catkin REQUIRED
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  Cell.msg
-  Map.msg
-  Region.msg
+  ManipulationNodeStatus.msg  
+  PerceptionNodeStatus.msg
+  TaskData.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -51,17 +51,8 @@ add_service_files(
   DIRECTORY
   srv
   FILES
-  AddPointCloud.srv           
-  CurrentMapToCollisionObject.srv
-  GetBaseOrigin.srv
-  GetPercentCleared.srv
-  BlowUpObjects.srv
-  EurocObjectToOdomCombined.srv
-  GetMap.srv
-  MarkRegionAsObjectUnderPoint.srv
-  CreatePosesForScanning.srv
-  FilterPoses.srv
-  GetObstacleRegions.srv
+  StartPlanning.srv
+  TaskDataService.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -74,9 +65,8 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
   std_msgs  # Or other packages containing msgs
-  suturo_msgs
-  moveit_msgs
   suturo_perception_msgs
+  suturo_msgs
 )
 
 ###################################

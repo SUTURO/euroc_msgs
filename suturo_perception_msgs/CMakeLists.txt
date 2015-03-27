@@ -39,26 +39,23 @@ find_package(catkin REQUIRED
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  PerceivedObject.msg
   Cuboid.msg
   EurocObject.msg
-  ObjectOfInterest.msg
-  PerceptionNodeStatus.msg
-  PointArrayResult.msg
+  ObjectOfInterest.msg  
+  PerceivedObject.msg
+  CleanUpAction.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
-	DIRECTORY
-	srv
+  DIRECTORY
+  srv
   FILES
-  GetClusters.srv
-  GetTable.srv
-  GetScene.srv
-  GetGripper.srv
-  RecognizeOoI.srv
   Classifier.srv
+  GetCameraPerception.srv
   GetPointArray.srv
+  GetTable.srv
+  RecognizeOoI.srv
 )
 
 ## Generate actions in the 'action' folder
