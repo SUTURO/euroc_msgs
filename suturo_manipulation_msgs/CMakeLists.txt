@@ -68,6 +68,7 @@ find_package(catkin REQUIRED
    MoveMastCam.srv
    MoveWithPlan.srv  
    PlaceObject.srv
+   GraspObject.srv
  )
 
 ## Generate actions in the 'action' folder
