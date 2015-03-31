@@ -66,9 +66,8 @@ find_package(catkin REQUIRED
    Plan.srv
    CloseGripper.srv
    MoveMastCam.srv
-   MoveWithPlan.srv  
-   PlaceObject.srv
    GraspObject.srv
+   MoveWithPlan.srv
  )
 
 ## Generate actions in the 'action' folder
@@ -102,7 +101,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES kinect_node_msgs
-  CATKIN_DEPENDS message_runtime
+#  CATKIN_DEPENDS message_runtime
 #  DEPENDS system_lib
 )
 
