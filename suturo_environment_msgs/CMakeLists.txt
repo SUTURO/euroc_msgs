@@ -74,9 +74,9 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
   std_msgs  # Or other packages containing msgs
+  suturo_perception_msgs
   suturo_msgs
   moveit_msgs
-  suturo_perception_msgs
 )
 
 ###################################
