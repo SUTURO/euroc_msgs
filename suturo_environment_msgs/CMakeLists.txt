@@ -58,6 +58,7 @@ add_service_files(
   BlowUpObjects.srv
   EurocObjectToOdomCombined.srv
   GetMap.srv
+  ResetMap.srv
   MarkRegionAsObjectUnderPoint.srv
   CreatePosesForScanning.srv
   FilterPoses.srv
