@@ -1,0 +1,13 @@
+#goal definition
+string msg_type
+string database
+string collection
+string output_topic
+time start_time
+time end_time
+---
+#result definition
+time end_time
+---
+#feedback
+time current_time
