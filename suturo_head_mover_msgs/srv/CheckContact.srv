@@ -1,0 +1,8 @@
+#Request
+string object1
+string object2
+
+---
+
+#Response
+bool inContact
