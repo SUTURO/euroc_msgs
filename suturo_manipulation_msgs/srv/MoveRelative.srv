@@ -1,0 +1,8 @@
+#Request Parameters
+geometry_msgs/TwistStamped relative_goal
+
+---
+
+#Response Parameters
+bool result
+	
