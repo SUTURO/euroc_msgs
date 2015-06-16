@@ -1,4 +1,3 @@
 bool result
-string name
-bool executionDate
+string executionDate
 Binding[] bindings

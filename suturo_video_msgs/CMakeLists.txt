@@ -9,7 +9,6 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
 	FILES
 	GetSimulationRuns.srv
-	GetTestResults.srv
 	GetTests.srv
 )
 
