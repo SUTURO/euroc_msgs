@@ -9,7 +9,17 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
 	FILES
 	GetSimulationRuns.srv
-	GetTestResults.srv
+	GetTests.srv
+	ExecuteTests.srv
+	AddTests.srv
+)
+
+## Generate messages in the 'msg' folder
+add_message_files(
+  FILES
+  Test.msg
+  TestResult.msg
+  Binding.msg
 )
 
 ## Generate actions in the 'action' folder

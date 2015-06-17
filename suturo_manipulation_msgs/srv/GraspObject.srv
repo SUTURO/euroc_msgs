@@ -1,6 +1,10 @@
 #Request
+int32 GRAB_NO_PREFERENCE = 0
+int32 GRAB_TOP = 1
+int32 GRAB_SIDE = 2
 moveit_msgs/CollisionObject object
 float32 density
+int32 prefer_grasp_position
 ---
 #Response
 bool result
