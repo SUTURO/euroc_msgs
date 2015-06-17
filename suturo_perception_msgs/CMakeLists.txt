@@ -56,7 +56,7 @@ add_service_files(
   GetPointArray.srv
   GetTable.srv
   RecognizeOoI.srv
-#  DeepMindInteraction.srv
+  DeepMindInteraction.srv
 )
 
 ## Generate actions in the 'action' folder
