@@ -10,6 +10,8 @@ add_service_files(
 	FILES
 	GetSimulationRuns.srv
 	GetTests.srv
+	ExecuteTests.srv
+	AddTests.srv
 )
 
 ## Generate messages in the 'msg' folder
