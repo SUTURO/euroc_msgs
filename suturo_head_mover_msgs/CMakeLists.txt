@@ -53,6 +53,8 @@ add_message_files(
  SuturoMlFeature.msg
  SuturoMlPolicyEntry.msg
  SuturoMlPolicy.msg
+ SuturoMlAction.msg
+ SuturoMlState.msg
 )
 
 
@@ -61,6 +63,7 @@ add_message_files(
    FILES
    CheckContact.srv
    SuturoMlFeedPolicy.srv
+   SuturoMlNextAction.srv
  )
 
 ## Generate actions in the 'action' folder

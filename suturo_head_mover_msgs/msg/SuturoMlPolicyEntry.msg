@@ -1,8 +1,8 @@
 #state
-SuturoMlFeature[] state
+SuturoMlState state
 
 #action
-int64 action
+SuturoMlAction action
 
 #reward
 int64 reward
