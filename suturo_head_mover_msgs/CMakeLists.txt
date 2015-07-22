@@ -58,6 +58,7 @@ find_package(catkin REQUIRED
  add_service_files(
    FILES
    CheckContact.srv
+   Hammertime.srv
  )
 
 ## Generate actions in the 'action' folder
