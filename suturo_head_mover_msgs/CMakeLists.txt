@@ -64,6 +64,7 @@ add_message_files(
    CheckContact.srv
    SuturoMlFeedPolicy.srv
    SuturoMlNextAction.srv
+   Hammertime.srv
  )
 
 ## Generate actions in the 'action' folder
