@@ -61,7 +61,7 @@ add_message_files(
 ## Generate services in the 'srv' folder
  add_service_files(
    FILES
-   CheckContact.srv
+   SuturoMlCheckContact.srv
    SuturoMlFeedPolicy.srv
    SuturoMlNextAction.srv
    Hammertime.srv
