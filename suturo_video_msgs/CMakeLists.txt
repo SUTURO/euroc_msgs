@@ -12,6 +12,7 @@ add_service_files(
 	GetTests.srv
 	ExecuteTests.srv
 	AddTests.srv
+	GetTopicNames.srv
 )
 
 ## Generate messages in the 'msg' folder
