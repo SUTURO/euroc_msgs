@@ -1,5 +1,5 @@
 string name
 string description
 string query
-string expected
+Binding[] expected
 TestResult test_result
