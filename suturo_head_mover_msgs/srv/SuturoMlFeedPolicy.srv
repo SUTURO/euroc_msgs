@@ -1,0 +1,7 @@
+#Request
+SuturoMlPolicy policy
+
+---
+
+#Response
+bool success

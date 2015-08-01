@@ -48,16 +48,23 @@ find_package(catkin REQUIRED
 #   Message1.msg
 #   Message2.msg
 # )
-#add_message_files(
-#  FILES
-#  ManipulationNodeStatus.msg
-#)
+add_message_files(
+ FILES
+ SuturoMlFeature.msg
+ SuturoMlPolicyEntry.msg
+ SuturoMlPolicy.msg
+ SuturoMlAction.msg
+ SuturoMlState.msg
+)
 
 
 ## Generate services in the 'srv' folder
  add_service_files(
    FILES
-   CheckContact.srv
+   SuturoMlCheckContact.srv
+   SuturoMlFeedPolicy.srv
+   SuturoMlNextAction.srv
+   Hammertime.srv
  )
 
 ## Generate actions in the 'action' folder
