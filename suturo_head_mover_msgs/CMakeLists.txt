@@ -50,7 +50,6 @@ find_package(catkin REQUIRED
 # )
 add_message_files(
  FILES
- SuturoMlFeature.msg
  SuturoMlPolicyEntry.msg
  SuturoMlPolicy.msg
  SuturoMlAction.msg
@@ -62,7 +61,7 @@ add_message_files(
  add_service_files(
    FILES
    SuturoMlCheckContact.srv
-   SuturoMlFeedPolicy.srv
+   # SuturoMlFeedPolicy.srv
    SuturoMlNextAction.srv
    Hammertime.srv
  )

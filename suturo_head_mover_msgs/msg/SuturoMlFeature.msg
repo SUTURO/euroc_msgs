@@ -1,2 +1,0 @@
-string featureName
-float64 value
