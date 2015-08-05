@@ -1,4 +1,3 @@
-string database_name
-string owl_file
+string simulation_run_name
 ---
 bool result
