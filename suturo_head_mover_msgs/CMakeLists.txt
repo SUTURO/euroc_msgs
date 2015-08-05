@@ -61,7 +61,7 @@ add_message_files(
  add_service_files(
    FILES
    SuturoMlCheckContact.srv
-   # SuturoMlFeedPolicy.srv
+   SuturoMlFeedPolicy.srv
    SuturoMlNextAction.srv
    Hammertime.srv
  )
