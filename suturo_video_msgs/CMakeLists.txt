@@ -13,6 +13,7 @@ add_service_files(
 	ExecuteTests.srv
 	AddTests.srv
 	GetTopicNames.srv
+  GetSavedImages.srv
 )
 
 ## Generate messages in the 'msg' folder
@@ -21,6 +22,7 @@ add_message_files(
   Test.msg
   TestResult.msg
   Binding.msg
+  SavedImage.msg
 )
 
 ## Generate actions in the 'action' folder
